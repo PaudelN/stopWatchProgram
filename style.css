@@ -1,0 +1,41 @@
+body{
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+   
+}
+
+
+
+.timerBtn {
+  width: 5rem;
+  height: 1.9rem;
+  border: 1px solid;
+  border-radius: 4px;
+  background-color: rgba(55, 29, 150, 0.932);
+  color: white;
+  cursor: pointer;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.timerBtn:hover {
+  background-color: white;
+  color: rgba(55, 29, 150, 0.932);
+  transition: 0.7s;
+}
+
+#timeDisplay {
+  font-size: 75px;
+  color: rgba(55, 29, 150, 0.932);
+  font-family: "Courier New", Courier, monospace;
+}
+
+#timeContainer {
+  text-align: center;
+  border: 3px solid;
+  border-radius: 25px;
+  width: 25rem;
+}
